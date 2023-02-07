@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 5rem;
+    height: 5rem;
+}
+.box1{
+    background-color: blue;
+    align-self: center;
+}
+.box2{
+    background-color: red;
+    align-self: center;
+}
+.box3{
+    background-color: yellow;
+    align-self: center;
+}
+.box4{
+    background-color: green;
+    align-self:flex-end;
+}
+.box5{
+    background-color: purple;
+    align-self:flex-end;
+}
+.box6{
+    background-color: orange;
+    align-self:flex-end;
+}

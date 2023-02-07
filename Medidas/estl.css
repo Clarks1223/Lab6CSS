@@ -1,0 +1,56 @@
+/*esto va siempre*/
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    background-color: red;
+    color:white;
+    height: 500px;
+}
+p{
+    font-size: 10px;
+}
+/*ejemplo con em-no se recomienda por que sus valores se cumulan vale 16 pixeles*/
+/*
+.text-container{
+    font-size: 1.5em;
+}
+.text-container div{
+    font-size: 1.5em;
+}
+
+/*uso de rem, controlo para que 1 rem valga 10
+se evita el problema de acumulacion*/
+/*
+html{
+    font-size: 62%;
+}
+p{
+    font-size: 3rem;
+}
+main div{
+    font-size: 3rem;
+}
+*/
+/*
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(226, 158, 226);
+    min-width: 320px;
+}
+
+section{
+    width: 80%;
+    min-width: 320px;
+    max-width: 300px;
+    min-height: 300px;
+    background-color: rgb(38, 153, 38);
+    margin:0 auto;
+}
+*/
